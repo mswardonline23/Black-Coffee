@@ -1,0 +1,203 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  color: white;
+  font-family: sans-serif;
+  background-color: black;
+}
+header{
+  background-color: white;
+  text-align: center;
+}
+
+nav {
+  padding: 10px; /* Add spacing  */
+  text-decoration: none; /* remove underline */
+  text-align: center;
+  background-color: black;
+  text-transform: uppercase;
+}
+nav a:link{
+  
+  color: white;
+  padding: 10px; /* Add spacing  */
+  text-decoration: none; /* remove underline */
+ /* border-radius: 6px;   round  */
+  
+}
+
+nav a:hover{
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+  font-size: 20px;
+
+  }
+
+}
+
+main{
+  padding-top: 15px;
+  background-image: url("images/bg-image3.jpeg");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  width: 100%;
+  
+}
+
+#title h1{
+  margin:auto;
+  text-align: center;
+  width: 75%;
+  text-shadow: 2px 2px #000000;
+}
+
+#bio{
+  text-align: justify;
+}
+
+#bio p{
+  width: 75%;
+  /*border: 15px solid green;*/
+  padding: 15px;
+  margin: auto;
+  text-shadow: 2px 2px #000000;
+}
+
+#video{
+  text-align: center;
+}
+
+#tour{
+  color: black;
+}
+
+#tour .btn{
+  background-color: black;
+  color:white;
+}
+#tour .text-center{
+  color:white;
+}
+#tour .thumbnail{
+  color:black;
+}
+
+footer {
+  padding-top: 10px;
+  background-color: black;
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+
+
+
+footer p,
+a {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2rem;
+  color: #eee;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+footer ul li {
+  padding: 1rem;
+  font-size: 2rem
+}
+
+footer .fab {
+  font-size: 5rem;
+}
+
+/* transition for social icon hover animation */
+footer .fa-facebook,
+footer .fa-codepen,
+footer .fa-youtube,
+footer .fa-instagram,
+footer .fa-github,
+footer.fa-pinterest {
+  transition: 0.4s;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+/* social media icons hover color */
+.fa-facebook:hover,
+.fa-facebook:focus {
+  color: #1877f2;
+  transform: scale(1.1);
+}
+
+
+
+.fa-youtube:hover,
+.fa-youtube:focus {
+  color: #df2426;
+  transform: scale(1.1);
+}
+
+footer .fa-instagram:hover,
+.fa-instagram:focus {
+  color: #bd22a2;
+  transform: scale(1.1);
+  
+}
+
+
+/*Contact Form */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #2d2a2a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+.container-form {
+  border-radius: 5px;
+  background-color: #8a8a8a;
+  padding: 20px;
+  width: 80%;
+  max-width: 960px;
+  margin:auto;
+  
+}
+
+
+
